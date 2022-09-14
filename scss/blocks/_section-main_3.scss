@@ -1,0 +1,35 @@
+.countries-title {
+  margin-top: 168px;
+  h2 {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: $primary-color-title-country;
+    margin-bottom: 72px;
+    margin-left: 85px;
+  }
+  .countries {
+    display: flex;
+    align-items: center;
+    gap: 85px;
+    .uk {
+      h3 {
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: $primary-color-title;
+        margin-bottom: 25px;
+      }
+      ul {
+        list-style-type: none;
+        gap: 20px;
+        li {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 26px;
+          color: $primary-color-title;
+        }
+      }
+    }
+  }
+}

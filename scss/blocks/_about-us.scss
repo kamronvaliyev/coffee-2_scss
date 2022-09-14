@@ -1,11 +1,27 @@
-
-.about-us__info{
-    
-    h2{
-        font-weight: 900;
-        font-size: 40px;
-        line-height: 48px;
-        width: 188px;
-        height: 48px;   
-    }
+.about-us__info {
+  background-image: url(../../img/about-us\ banner.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding-top: 137px;
+  padding-bottom: 137px;
+  border-radius: 5px;
+  h2 {
+    font-weight: 900;
+    line-height: 48px;
+    font-size: 40px;
+    color: #fff;
+    width: 188px;
+    height: 48px;
+    margin-bottom: 24px;
+    margin-left: 85px;
+  }
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fefcf7;
+    width: 445px;
+    height: 104px;
+    margin-left: 85px;
+  }
 }

@@ -1,0 +1,44 @@
+.quality {
+  width: 1200px;
+  height: 474px;
+  background-color: $primary-color-title;
+  border-radius: 5px;
+  margin-top: 170px;
+  position: relative;
+  .quality__info {
+    /* background-image: url(../../img/quality.jpg);
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+
+    background-position: left 830px;*/
+    display: flex;
+    img {
+      margin-top: -82px;
+      margin-left: 125px;
+    }
+    .quality__text {
+      margin-top: 100px;
+      h2 {
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        width: 517px;
+        height: 48px;
+        margin-left: 85px;
+        margin-bottom: 32px;
+        color: $primary-color-quality-text;
+      }
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        width: 540px;
+        height: 130px;
+        margin-left: 85px;
+        color: $primary-color-quality-text;
+      }
+    }
+  }
+}

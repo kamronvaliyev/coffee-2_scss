@@ -1,3 +1,7 @@
 .container{
-    max-width: 1200px;
+    max-width: $desktop;
+    @media (max-width:$tablet-l) {
+        padding: 20px;        
+    }
+
 }
