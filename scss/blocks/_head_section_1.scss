@@ -7,6 +7,18 @@
   .header__logo {
     margin-left: 0;
     margin-right: 680px;
+    a {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      p {
+        color: $primary-color-title;
+        width: 203px;
+        height: 24px;
+        font-size: 28px;
+      }
+    }
   }
 }
 
