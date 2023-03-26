@@ -102,7 +102,7 @@ body {
 .first-main-sec {
   width: 1200px;
   height: 653px;
-  background: #2C343E;
+  background: #2c343e;
   border-radius: 10px;
 }
 
@@ -111,23 +111,22 @@ body {
   font-family: Fraunces;
   align-items: center;
   justify-content: space-between;
-  padding-top: 280px;
   padding-left: 50px;
   left: 165px;
 }
 
-.instruction_1 {
+.instruction_1-box {
   margin-left: 0;
 }
 
-.instruction_1 h2 {
+.instruction_1-box h2 {
   font-weight: 900;
   font-size: 72px;
   line-height: 72px;
-  color: #FDD6BA;
+  color: #fdd6ba;
 }
 
-.instruction_1 h3 {
+.instruction_1-box h3 {
   font-weight: 900;
   font-size: 30px;
   line-height: 36px;
@@ -136,36 +135,36 @@ body {
   margin-bottom: 42px;
 }
 
-.instruction_1 p {
+.instruction_1-box p {
   font-weight: 400;
   font-size: 14px;
   line-height: 26px;
-  color: #FEFCF7;
+  color: #fefcf7;
   width: 285px;
   height: 130px;
 }
 
-.instruction h2 {
+.instruction-box h2 {
   font-weight: 900;
   font-size: 72px;
   line-height: 72px;
-  color: #FDD6BA;
+  color: #fdd6ba;
 }
 
-.instruction h3 {
+.instruction-box h3 {
   font-weight: 900;
   font-size: 30px;
   line-height: 36px;
-  color: #FEFCF7;
+  color: #fefcf7;
   margin-top: 38px;
   margin-bottom: 42px;
 }
 
-.instruction p {
+.instruction-box p {
   font-weight: 400;
   font-size: 14px;
   line-height: 26px;
-  color: #FEFCF7;
+  color: #fefcf7;
   width: 285px;
   height: 130px;
 }
@@ -182,31 +181,31 @@ body {
 }
 
 .box:hover {
-  color: #333D4B;
+  color: #333d4b;
 }
 
 .box:active {
-  color: #333D4B;
+  color: #333d4b;
 }
 
 .box h3 {
   font-weight: 900;
   font-size: 24px;
   line-height: 32px;
-  color: #0E8784;
+  color: #0e8784;
 }
 
 .box p {
   font-weight: 900;
   font-size: 24px;
   line-height: 32px;
-  color: #333D4B;
+  color: #333d4b;
 }
 
 .box__line {
   width: 255px;
   height: 1px;
-  background: #83888F;
+  background: #83888f;
 }
 
 .big-boxes {
@@ -217,13 +216,13 @@ body {
   font-weight: 900;
   font-size: 40px;
   line-height: 48px;
-  color: #83888F;
+  color: #83888f;
 }
 
 .small-boxes {
   width: 228px;
   height: 200px;
-  background: #F4F1EB;
+  background: #f4f1eb;
   border-radius: 8px;
   padding-left: 28px;
   padding-top: 32px;
@@ -237,25 +236,25 @@ body {
   font-weight: 900;
   font-size: 24px;
   line-height: 32px;
-  color: #333D4B;
+  color: #333d4b;
 }
 
 .small-boxes p {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: #333D4B;
+  color: #333d4b;
   width: 172px;
   height: 78px;
   margin-top: 24px;
 }
 
 .small-boxes:hover {
-  background: #0E8784;
+  background: #fdd6ba;
 }
 
 .small-boxes:active {
-  background: #FDD6BA;
+  background: #0e8784;
 }
 
 .types {
@@ -390,7 +389,7 @@ body {
 }
 
 .section-main {
-  margin-top: 168px;
+  margin-top: 100px;
 }
 .section-main .section-info {
   display: flex;
@@ -427,7 +426,7 @@ body {
   height: 474px;
   background-color: #333D4B;
   border-radius: 5px;
-  margin-top: 170px;
+  margin-top: 100px;
   position: relative;
 }
 .quality .quality__info {
@@ -492,4 +491,252 @@ body {
   font-size: 16px;
   line-height: 26px;
   color: #333D4B;
+}
+
+.coffee_photo {
+  position: absolute;
+  width: 1200px;
+  height: 600px;
+  border-radius: 4px;
+}
+
+.made_coffee {
+  position: relative;
+  z-index: 1;
+  margin-left: 86px;
+  padding-top: 117px;
+  margin-bottom: 234px;
+}
+
+.made_coffee__title {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fefcf7;
+  margin-bottom: 32px;
+  width: 493px;
+  height: 145px;
+  margin-left: 0;
+}
+
+.made_coffee__text {
+  font-family: Barlow;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  width: 445px;
+  height: 78px;
+  margin-left: 0;
+}
+
+.made_coffee__btn {
+  margin-top: 56px;
+  background: #0e8784;
+  border-radius: 6px;
+  text-align: center;
+  color: #fefcf7;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  width: 217px;
+  height: 56px;
+  cursor: pointer;
+}
+
+.collection {
+  position: relative;
+  background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #fefcf7 100%);
+  text-align: center;
+  align-items: center;
+}
+
+.collection__title {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 150px;
+  line-height: 72px;
+  text-align: center;
+  color: #83888f;
+}
+
+.type_coffees {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.espresso {
+  z-index: 10;
+  top: -50px;
+}
+
+.espresso h4 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #333d4b;
+  margin-top: 50px;
+  margin-bottom: 24px;
+}
+
+.espresso p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #333d4b;
+  width: 255px;
+  height: 78px;
+}
+
+.about-us {
+  border-radius: 10px;
+  width: 1200px;
+  height: 577px;
+}
+
+.about-us h2 {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #fefcf7;
+  padding-top: 120px;
+}
+
+.about-us p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #fefcf7;
+  width: 540px;
+  height: 80px;
+  margin-top: 32px;
+}
+
+.boxes-coffee {
+  display: flex;
+  margin-top: -180px;
+}
+
+.box_coffee {
+  background: #0e8784;
+  width: 350px;
+  height: 300px;
+  border-radius: 8px;
+  left: 165px;
+  top: 1920px;
+  text-align: center;
+}
+
+.box_coffee img {
+  margin-top: 72px;
+}
+
+.box_coffee h3 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fefcf7;
+  margin-top: 36px;
+}
+
+.box_coffee p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  width: 255px;
+  height: 78px;
+}
+
+.our-system h2 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+  margin-top: 200px;
+  margin-bottom: 80px;
+}
+
+.three_boxes {
+  display: flex;
+  font-family: Fraunces;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.instruction_1 {
+  margin-left: 0;
+}
+
+.instruction_1 h2 {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fdd6ba;
+}
+
+.instruction_1 h3 {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+  margin-top: 38px;
+  margin-bottom: 42px;
+}
+
+.instruction_1 p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+  width: 285px;
+  height: 130px;
+}
+
+.instruction h2 {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fdd6ba;
+}
+
+.instruction h3 {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+  margin-top: 38px;
+  margin-bottom: 42px;
+}
+
+.instruction p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+  width: 285px;
+  height: 130px;
+}
+
+.our-system__btn {
+  background: #0e8784;
+  border-radius: 6px;
+  width: 217px;
+  height: 56px;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #fefcf7;
+  margin-top: 80px;
+  border: none;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */

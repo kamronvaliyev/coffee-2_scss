@@ -1,85 +1,84 @@
-.drink-coffee{
-    display:flex;
-    margin-top: 168px;
-
+.drink-coffee {
+  display: flex;
+  margin-top: 168px;
 }
-.box{
-    display: flex;
-    cursor: pointer;
-    margin-bottom: 24px;
+.box {
+  display: flex;
+  cursor: pointer;
+  margin-bottom: 24px;
 }
-.box:hover{
-    color: #333D4B;
+.box:hover {
+  color: #333d4b;
 }
-.box:active{
-    color: #333D4B;
+.box:active {
+  color: #333d4b;
 }
-.box h3{
-    font-weight: 900;
-font-size: 24px;
-line-height: 32px;
-color: #0E8784;
+.box h3 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #0e8784;
 }
-.box p{
-    font-weight: 900;
-font-size: 24px;
-line-height: 32px;
-color: #333D4B;
+.box p {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333d4b;
 }
-.box__line{
-    width: 255px;
-height: 1px;
-background: #83888F;
+.box__line {
+  width: 255px;
+  height: 1px;
+  background: #83888f;
 }
-.big-boxes{
-    margin-left: 125px;
+.big-boxes {
+  margin-left: 125px;
 }
-.big-boxes__title{
-    font-weight: 900;
-font-size: 40px;
-line-height: 48px;
-color: #83888F;
+.big-boxes__title {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #83888f;
 }
-.small-boxes{
-    width: 228px;
-height: 200px;
-    background: #F4F1EB;
-border-radius: 8px;
-padding-left: 28px;
-padding-top: 32px;
-display: inline-block;
-margin-right: 30px;
-margin-top: 56px;
-cursor: pointer;
+.small-boxes {
+  width: 228px;
+  height: 200px;
+  background: #f4f1eb;
+  border-radius: 8px;
+  padding-left: 28px;
+  padding-top: 32px;
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 56px;
+  cursor: pointer;
 }
-.small-boxes h3{
-    font-weight: 900;
-font-size: 24px;
-line-height: 32px;
-color: #333D4B;
+.small-boxes h3 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333d4b;
 }
-.small-boxes p{
-    font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-color: #333D4B;
-width: 172px;
-height: 78px; 
-margin-top:24px;
+.small-boxes p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+  width: 172px;
+  height: 78px;
+  margin-top: 24px;
 }
-.small-boxes:hover{
-    background: #0E8784;
+.small-boxes:hover {
+  background:   #fdd6ba;
 }
-.small-boxes:active{
-    background: #FDD6BA
+.small-boxes:active {
+  background:#0e8784;
 }
-.types{
-    margin-top: 88px;
-    margin-bottom: 88px;
+.types {
+  margin-top: 88px;
+  margin-bottom: 88px;
 }
-.how-much{
-    margin-bottom: 88px;
+.how-much {
+  margin-bottom: 88px;
 }
-.grind-coffee{
-    margin-bottom: 88px;
+.grind-coffee {
+  margin-bottom: 88px;
 }
